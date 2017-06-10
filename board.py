@@ -15,7 +15,7 @@ class Board(object):
         return bool((0 <= x_coordinate < self.board_size) and (0 <= y_coordinate < self.board_size))
 
     def updateCell(self, x_coordinate, y_coordinate, value):
-        Board[vertical][horizontal] = value
+        pass
 
     def print(self):
         """Print the board"""
