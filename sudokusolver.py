@@ -1,8 +1,8 @@
 import board
 
-int boardSize = 9
+BOARDSIZE = 9
 
-board = board.Board(boardSize)
+board = board.Board(BOARDSIZE)
 
 def validateHorizontal():
     return 0
