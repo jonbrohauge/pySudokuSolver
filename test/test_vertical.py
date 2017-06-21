@@ -20,15 +20,15 @@ class SolverTest(unittest.TestCase):
     def test_is_vertical_complete(self):
         """Testing for complete vertical input."""
         self.assertTrue(self.testSolver.is_vertical_complete(
-            self.testVertRowComplete))
+            self.testVComplete))
         self.assertTrue(self.testSolver.is_vertical_complete(
-            self.testVertRowDuplicate))
+            self.testVDuplicate))
         self.assertTrue(self.testSolver.is_vertical_complete(
-            self.testVertRowIncomplete))
+            self.testVIncomplete))
         self.assertFalse(self.testSolver.is_vertical_complete(
-            self.testVertRowShort))
+            self.testVShort))
         self.assertFalse(self.testSolver.is_vertical_complete(
-            self.testVertRowLong))
+            self.testVLong))
 
 
 if __name__ == '__main__':
